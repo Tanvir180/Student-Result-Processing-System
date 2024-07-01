@@ -18,7 +18,7 @@ class B {
 
 class A extends B {
   // This method overrides the method in B
-  public void p(int i) {
+  public void p(int i)  {
     System.out.println(i);
   }
 }  

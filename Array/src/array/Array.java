@@ -5,6 +5,8 @@ public class Array {
       double[] number; //declaration
       number= new double[10];//creation
       Scanner input =new Scanner(System.in);
+      String s1 = "Hridoy";
+      int l = s1.length();
       int size=number.length;
       System.out.println("Array size is ="+size);
       int i;

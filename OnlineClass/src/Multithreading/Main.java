@@ -17,7 +17,7 @@ public class Main {
         sc.start();
         tc.start();
         //runnable dont have start function
-        frc.run();
+        //frc.run();
         //converting to thread gives start function
         tfrc.start();
     }

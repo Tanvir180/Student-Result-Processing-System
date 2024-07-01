@@ -56,65 +56,80 @@ public class Tresult extends javax.swing.JFrame {
         jButtonExit = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
         jTextFieldId = new javax.swing.JTextField();
+        jLabel10 = new javax.swing.JLabel();
 
         jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\My AsUs\\Pictures\\6.jpg")); // NOI18N
         jLabel9.setText("jLabel9");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 0, 51));
         jLabel1.setText("  Enter CGPA Of Students");
         jLabel1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(102, 10, 257, 37));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(51, 51, 255));
         jLabel2.setText("DLD");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 156, 113, 35));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 0, 255));
         jLabel3.setText("JAVA");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 211, 113, 30));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 51, 255));
         jLabel4.setText("MATH");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 258, 113, 30));
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(51, 51, 255));
         jLabel5.setText("STASITICS");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 393, 113, 25));
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(0, 0, 255));
         jLabel6.setText("ACCOUNTING");
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 305, 113, 28));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(0, 51, 255));
         jLabel7.setText("ELECTRONICS");
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 341, 113, 40));
 
         jTextFieldDld.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldDldActionPerformed(evt);
             }
         });
+        getContentPane().add(jTextFieldDld, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 158, 145, 35));
 
         jTextFieldJava.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldJavaActionPerformed(evt);
             }
         });
+        getContentPane().add(jTextFieldJava, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 213, 145, 30));
+        getContentPane().add(jTextFieldMath, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 260, 145, 30));
 
         jTextFieldAccounting.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldAccountingActionPerformed(evt);
             }
         });
+        getContentPane().add(jTextFieldAccounting, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 307, 145, 28));
 
         jTextFieldElectronics.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldElectronicsActionPerformed(evt);
             }
         });
+        getContentPane().add(jTextFieldElectronics, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 348, 145, 30));
+        getContentPane().add(jTextFieldStasitics, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 392, 145, 31));
 
         jButtonSubmit.setBackground(new java.awt.Color(0, 0, 255));
         jButtonSubmit.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
@@ -126,6 +141,7 @@ public class Tresult extends javax.swing.JFrame {
                 jButtonSubmitActionPerformed(evt);
             }
         });
+        getContentPane().add(jButtonSubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 455, 102, 34));
 
         jButtonReset.setBackground(new java.awt.Color(51, 255, 0));
         jButtonReset.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
@@ -136,6 +152,7 @@ public class Tresult extends javax.swing.JFrame {
                 jButtonResetActionPerformed(evt);
             }
         });
+        getContentPane().add(jButtonReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(162, 455, 110, 34));
 
         jButtonBack.setBackground(new java.awt.Color(0, 255, 255));
         jButtonBack.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
@@ -146,6 +163,7 @@ public class Tresult extends javax.swing.JFrame {
                 jButtonBackActionPerformed(evt);
             }
         });
+        getContentPane().add(jButtonBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(315, 455, 108, 34));
 
         jButtonExit.setBackground(new java.awt.Color(255, 0, 51));
         jButtonExit.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
@@ -156,124 +174,22 @@ public class Tresult extends javax.swing.JFrame {
                 jButtonExitActionPerformed(evt);
             }
         });
+        getContentPane().add(jButtonExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(334, 507, 89, 32));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 0, 0));
         jLabel8.setText("Enter Id");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 65, 140, 40));
 
         jTextFieldId.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldIdActionPerformed(evt);
             }
         });
+        getContentPane().add(jTextFieldId, new org.netbeans.lib.awtextra.AbsoluteConstraints(161, 65, 143, 40));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 440, Short.MAX_VALUE)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(85, 85, 85)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(4, 4, 4)
-                            .addComponent(jTextFieldId, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(4, 4, 4)
-                            .addComponent(jTextFieldDld, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(4, 4, 4)
-                            .addComponent(jTextFieldJava, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(4, 4, 4)
-                            .addComponent(jTextFieldMath, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(4, 4, 4)
-                            .addComponent(jTextFieldAccounting, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(4, 4, 4)
-                            .addComponent(jTextFieldElectronics, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(4, 4, 4)
-                            .addComponent(jTextFieldStasitics, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(jButtonSubmit, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(43, 43, 43)
-                            .addComponent(jButtonReset, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(43, 43, 43)
-                            .addComponent(jButtonBack, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(317, 317, 317)
-                            .addComponent(jButtonExit, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGap(0, 0, Short.MAX_VALUE)))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 550, Short.MAX_VALUE)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(18, 18, 18)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jTextFieldId, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGap(51, 51, 51)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(2, 2, 2)
-                            .addComponent(jTextFieldDld, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGap(18, 18, 18)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(2, 2, 2)
-                            .addComponent(jTextFieldJava, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGap(15, 15, 15)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(2, 2, 2)
-                            .addComponent(jTextFieldMath, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGap(15, 15, 15)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(2, 2, 2)
-                            .addComponent(jTextFieldAccounting, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGap(6, 6, 6)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(7, 7, 7)
-                            .addComponent(jTextFieldElectronics, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGap(11, 11, 11)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(1, 1, 1)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addComponent(jTextFieldStasitics, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGap(32, 32, 32)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jButtonSubmit, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jButtonReset, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jButtonBack, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGap(18, 18, 18)
-                    .addComponent(jButtonExit, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 0, Short.MAX_VALUE)))
-        );
+        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Users\\My AsUs\\Pictures\\6.jpg")); // NOI18N
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 440, 550));
 
         pack();
         setLocationRelativeTo(null);
@@ -445,6 +361,7 @@ public class Tresult extends javax.swing.JFrame {
     private javax.swing.JButton jButtonReset;
     private javax.swing.JButton jButtonSubmit;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

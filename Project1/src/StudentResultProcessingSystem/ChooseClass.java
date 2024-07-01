@@ -34,20 +34,24 @@ public class ChooseClass extends javax.swing.JFrame {
         jButtonStudent = new javax.swing.JButton();
         jButtonExit = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
 
         jLabel4.setText("jLabel4");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 51, 51));
-        jLabel1.setText("        Result  Processing System");
+        jLabel1.setText(" Result  Processing System");
         jLabel1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 0, 340, 60));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 102));
+        jLabel2.setForeground(new java.awt.Color(51, 51, 255));
         jLabel2.setText(" Select Your Choice?");
         jLabel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 220, 50));
 
         jButtonAdmin.setBackground(new java.awt.Color(0, 255, 0));
         jButtonAdmin.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
@@ -57,8 +61,9 @@ public class ChooseClass extends javax.swing.JFrame {
                 jButtonAdminActionPerformed(evt);
             }
         });
+        getContentPane().add(jButtonAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, 149, 46));
 
-        jButtonStudent.setBackground(new java.awt.Color(0, 0, 255));
+        jButtonStudent.setBackground(new java.awt.Color(0, 255, 204));
         jButtonStudent.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
         jButtonStudent.setText("STUDENT");
         jButtonStudent.addActionListener(new java.awt.event.ActionListener() {
@@ -66,6 +71,7 @@ public class ChooseClass extends javax.swing.JFrame {
                 jButtonStudentActionPerformed(evt);
             }
         });
+        getContentPane().add(jButtonStudent, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 290, 149, 43));
 
         jButtonExit.setBackground(new java.awt.Color(255, 0, 0));
         jButtonExit.setFont(new java.awt.Font("Tahoma", 2, 14)); // NOI18N
@@ -75,6 +81,7 @@ public class ChooseClass extends javax.swing.JFrame {
                 jButtonExitActionPerformed(evt);
             }
         });
+        getContentPane().add(jButtonExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 370, 100, 30));
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton1.setText("TEACHER");
@@ -83,47 +90,10 @@ public class ChooseClass extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 290, 150, 46));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(90, 90, 90)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(20, 20, 20)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(440, 440, 440)
-                        .addComponent(jButtonExit, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(210, 210, 210)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jButtonStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jButtonAdmin, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap())
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(29, 29, 29)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(30, 30, 30)
-                .addComponent(jButtonAdmin, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jButtonStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(36, 36, 36)
-                .addComponent(jButtonExit, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\My AsUs\\Pictures\\karnataka-results.jpg")); // NOI18N
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 620, 350));
 
         pack();
         setLocationRelativeTo(null);
@@ -197,6 +167,7 @@ public class ChooseClass extends javax.swing.JFrame {
     private javax.swing.JButton jButtonStudent;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     // End of variables declaration//GEN-END:variables
 }

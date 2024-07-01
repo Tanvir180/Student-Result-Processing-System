@@ -46,6 +46,7 @@ public class StudentChooseClass extends javax.swing.JFrame {
         jButtonDelete = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
 
         jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\My AsUs\\Pictures\\1.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
@@ -55,7 +56,7 @@ public class StudentChooseClass extends javax.swing.JFrame {
 
         jLabel1.setBackground(new java.awt.Color(0, 255, 255));
         jLabel1.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel1.setForeground(new java.awt.Color(51, 255, 0));
         jLabel1.setText("            Please Enter Your Choice");
         jLabel1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 20, 279, 45));
@@ -140,6 +141,9 @@ public class StudentChooseClass extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 410, 200, 40));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\My AsUs\\Pictures\\2.jpg")); // NOI18N
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 540, 560));
 
         pack();
         setLocationRelativeTo(null);
@@ -272,5 +276,6 @@ public class StudentChooseClass extends javax.swing.JFrame {
     private javax.swing.JButton jButtonView;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     // End of variables declaration//GEN-END:variables
 }

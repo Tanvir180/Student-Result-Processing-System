@@ -98,7 +98,7 @@ public class DeleteClass extends javax.swing.JFrame {
                 int id=Integer.parseInt(s1);
                 String query="DELETE FROM studentinfo WHERE id = "+id;
                 statement.executeUpdate(query);
-                JOptionPane.showMessageDialog(this ," Result Delete Successful ! " );
+                JOptionPane.showMessageDialog(this ," Account Delete Successful ! " );
                 LoginStudentClass a= new LoginStudentClass();
                      a.setVisible(true);
                      DeleteClass.this.dispose();

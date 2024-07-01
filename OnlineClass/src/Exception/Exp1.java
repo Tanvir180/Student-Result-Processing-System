@@ -13,14 +13,14 @@ public class Exp1 {
             a[4]=50;
              */
 
-        } catch (ArithmeticException e2) {
+        } /*catch (ArithmeticException e2) {
             System.out.println("Exception is :" + e2);
-        } /*  
+        } 
          catch(ArrayIndexOutOfBoundsException e3)
         {
             System.out.println("Exception is :"+e3);
-        }
-         */ catch (Exception e1) {
+        }*/
+          catch (Exception e1) {
             System.out.println("Exception is :" + e1);
         } finally {
             System.out.println("Code End");
